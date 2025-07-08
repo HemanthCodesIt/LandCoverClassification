@@ -1,0 +1,45 @@
+# PyTorch
+torch==1.7.1
+torchvision==0.8.2
+torchaudio==0.7.2
+
+# Data handling and numerical computing
+numpy==1.19.5
+pandas==1.1.5
+scikit-learn==0.24.2
+
+# Image processing
+Pillow==8.1.2
+opencv-python==4.5.1.48
+
+# Visualization
+matplotlib==3.3.4
+seaborn==0.11.1
+
+# Progress bars and utilities
+tqdm==4.56.2
+
+# Jupyter notebook support
+jupyter==1.0.0
+ipykernel==5.4.3
+
+# Data downloading
+requests==2.25.1
+urllib3==1.26.3
+
+# Configuration and logging
+pyyaml==5.4.1
+
+# For satellite imagery processing
+rasterio==1.2.0
+geopandas==0.8.2
+
+# Optional: For better performance
+# Uncomment if you have CUDA-capable GPU
+# torch==1.7.1+cu110
+# torchvision==0.8.2+cu110
+
+# Development tools (optional)
+pytest==6.2.2
+black==20.8b1
+flake8==3.8.4
